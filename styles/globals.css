@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  @font-face {
+    font-family: "vazir";
+    src: url(../public/fonts/vazir/Vazir.ttf);
+  }
+  @font-face {
+    font-family: "vazir-Bold";
+    src: url(../public/fonts/vazir/Vazir-Bold.ttf);
+  }
+  @font-face {
+    font-family: "ykanbakh";
+    src: url(../public/fonts/ykanBakh/YekanBakhNoEn-Regular.ttf);
+  }
+  @font-face {
+    font-family: "ykanbakh-Bold";
+    src: url(../public/fonts/ykanBakh/YekanBakhNoEn-Bold.ttf);
+  }
+  body{
+    font-family: "ykanbakh";
+    direction: rtl;
+  }
+  
+}
